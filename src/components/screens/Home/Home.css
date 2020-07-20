@@ -4,30 +4,84 @@
   flex-wrap: wrap;
   color: #333333;
   justify-content: center;
-  padding-top: 30px;
+  background-color: #51c2ba;
 }
 
 .home-content {
-  flex: 1;
+  max-width: 100%;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  margin: 20px 20px;
   padding: 10px 20px;
+  height: 1000px;
+  background-color: #51c2ba;
   /* box-shadow: 0px 0px 1px black; */
 }
 
-.youtube-wrapper{
+.home-content:first-of-type {
+  background-image: url("/images/background-borders-croped.jpg");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.home-quart-content {
+  height: 25%;
+  margin-top: 70px;
+}
+
+.home-half-content {
+  flex: 1;
+  height: 50%;
+  width: 90vw;
+}
+
+.home-title {
+  color: #c88ca6;
+}
+
+.green-contrast {
+  color: white;
+}
+
+.home-carousel {
+  align-self: center;
+  text-align: -webkit-center;
+}
+
+.home-carousel .carousel-slider {
+  height: 400px;
+  max-width: 100%;
+}
+.slider-wrapper,
+.carousel-slider,
+.slider {
+  height: 100%;
+}
+
+.slider {
+  align-items: center;
+}
+
+.home-carousel .slide {
+  background-color: transparent;
+}
+
+.youtube-wrapper {
   margin: 1px;
 }
 
-
-@media (max-width: 450px){
-  .home{
-    flex-flow: row;
-    flex-wrap: wrap;
+@media (max-width: 450px) {
+  .home {
     margin-top: 60px;
     padding-top: 0px;
-    overflow-y: scroll;
+  }
+
+  .home-content {
+    padding: 0;
+  }
+
+  .home-half-content {
+    flex-wrap: wrap;
   }
 }

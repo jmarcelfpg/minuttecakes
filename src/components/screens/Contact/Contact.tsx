@@ -5,7 +5,7 @@ import React from 'react';
 
 import "./Contact.css";
 
-const styles: StyleRulesCallback = theme => ({
+const styles: StyleRulesCallback<any, any, any> = (theme: any) => ({
     paper: {
         color: theme.palette.text.secondary,
         padding: theme.spacing.unit * 2,
@@ -27,7 +27,7 @@ function Contact(props: IContactProps) {
 
     return (
         <div className={`contact ${classes.root}`}>
-            <Grid container={true} spacing={24}>
+            <Grid container={true} spacing={5}>
                 <Grid item={true} lg={1} />
                 <Grid item={true} lg={5} >
                     <h2>Contactanos</h2>
@@ -35,11 +35,11 @@ function Contact(props: IContactProps) {
 
                     <p>
                         Al telefono: <span>xxxx-xxxx-xxxx</span>
-                            </p>
+                    </p>
                     <br />
 
                     <p>O mandanos un mail al correo: <span>tonopersianas@hotmail.com</span></p>
-                    
+
                     <br />
 
                     <p>Tambien puedes visitarnos en las redes sociales</p>

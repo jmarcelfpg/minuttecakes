@@ -1,9 +1,9 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Minuette",
+  "name": "Minuette Cakes",
   "icons": [
     {
-      "src": "icons/tonopersianaslogo_144x144.png",
+      "src": "icons/circle-logo.jpeg",
       "sizes": "144x144",
       "type": "image/png"
     }

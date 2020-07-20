@@ -7,7 +7,7 @@
       "coverage/lcov-report/*.js"
     ]
   },
-  "rules":{
-    "no-unused-expression":false
+  "rules": {
+    "no-unused-expression": false
   }
 }
