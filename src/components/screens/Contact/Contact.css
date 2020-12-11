@@ -1,3 +1,4 @@
-.contact{
-    max-width: 99%;
+.contact {
+  max-width: 99%;
+  min-height: calc(100vh - 86px);
 }

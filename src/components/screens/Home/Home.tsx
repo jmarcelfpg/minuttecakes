@@ -30,7 +30,7 @@ export default class Home extends React.Component {
                     </div>
 
                     <div className="home-quart-content">
-                        <Typography paragraph={true} classes={{ root: "green-contrast" }}>
+                        <Typography variant="h4" paragraph={true} classes={{ root: "green-contrast" }}>
                             Se te Antoja?
                         </Typography>
                         <Typography paragraph={true} classes={{ root: "green-contrast" }}>
